@@ -18,7 +18,7 @@ class _FoodDetailScreenState extends State<FoodDetailScreen> {
     Size size = MediaQuery.of(context).size;
     final textTheme = Theme.of(context).textTheme;
 
-    TextStyle black3A3A3A16W600 = TextStyle(
+    TextStyle black3A3A3A16W600 = const TextStyle(
       color: Color(0xFF3A3A3A),
       fontSize: 16,
       fontWeight: FontWeight.w600,

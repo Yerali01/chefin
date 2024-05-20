@@ -1,31 +1,3 @@
-// class RecipeModel {
-//   int? id;
-//   String title;
-//   int cookingTime;
-//   int servings;
-//   String imgPath;
-//   bool favourite;
-//   List<bool> takedingredients;
-//   List<String> ingredients;
-//   List<String> preparation;
-//   List<String> cooking;
-
-//   RecipeModel({
-//     this.id,
-//     this.favourite = false,
-//     required this.title,
-//     required this.cookingTime,
-//     required this.servings,
-//     required this.imgPath,
-//     required this.ingredients,
-//     required this.preparation,
-//     required this.cooking,
-//   }) : takedingredients = List<bool>.filled(ingredients.length, false);
-// }
-
-
-
-
 // {
 //   food: {
 //     foodId: food_bmyxrshbfao9s1amjrvhoauob6mo, 
@@ -138,7 +110,6 @@
 
 
 //FOR SEARCH
-
 // {
 //   recipe: {
 //     uri: http://www.edamam.com/ontologies/edamam.owl#recipe_8d3e4b9299664a1ca8e6f5bdb8532300, 

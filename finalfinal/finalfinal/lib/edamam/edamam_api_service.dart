@@ -46,10 +46,8 @@ class EdamamApiService {
     );
 
     if (response.statusCode == 200) {
-      // setState(() {
       foods = jsonDecode(response.body)['hints'];
       return foods;
-      // });
     } else {
       throw Exception('Failed to load foods');
     }
